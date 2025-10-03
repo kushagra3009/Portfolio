@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kushagra Singh - Portfolio</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        color: #333;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      nav {
+        background-color: #333;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      nav a {
+        display: inline-block;
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+      nav a:hover {
+        background-color: #575757;
+        color: #fff;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      .profile-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 30px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+      .profile-section:hover {
+        transform: translateY(-5px);
+      }
+      .profile-section img {
+        width: 200px;
+        border-radius: 50%;
+        margin-right: 30px;
+      }
+      .profile-info {
+        flex: 1;
+      }
+      section {
+        margin-bottom: 20px;
+      }
+      h2 {
+        color: #4caf50;
+        border-bottom: 2px solid #4caf50;
+        display: inline-block;
+        padding-bottom: 5px;
+      }
+      ul,
+      ol {
+        margin-left: 20px;
+      }
+      ol li:hover,
+      ul li:hover {
+        color: #4caf50;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+      }
+      a {
+        color: #4caf50;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: #2e7d32;
+      }
+      @media (max-width: 768px) {
+        .profile-section {
+          flex-direction: column;
+          text-align: center;
+        }
+        .profile-section img {
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Kushagra Singh</h1>
+      <p>Web Developer & Designer</p>
+    </header>
+
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+      <div class="profile-section">
+        <img src="profile.jpeg" alt="Kushagra Singh Photo" />
+        <div class="profile-info">
+          <section id="about">
+            <h2>About Me</h2>
+            <p>
+              Hello! I am Kushagra, a web developer passionate about creating
+              clean and efficient web solutions. I enjoy learning new
+              technologies and applying them to build meaningful digital
+              experiences.
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="profile-section">
+        <div class="profile-info">
+          <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>Responsive Web Design</li>
+              <li>React.js & Frontend Frameworks</li>
+              <li>UI/UX Design Principles</li>
+            </ul>
+          </section>
+
+          <section id="projects">
+            <h2>Projects</h2>
+            <ol>
+              <li>Personal Portfolio Website</li>
+              <li>E-commerce Web Application</li>
+              <li>Interactive Data Dashboard</li>
+            </ol>
+          </section>
+
+          <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: kushagra.hjp@gmail.com</p>
+            <p>Phone: 7903266680</p>
+            <p>
+              LinkedIn:
+              <a
+                href="https://www.linkedin.com/in/kushagra-singh-a1811136b/"
+                target="_blank"
+                >linkedin.com/in/kushagra-singh-a1811136b/</a
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Kushagra Singh. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
